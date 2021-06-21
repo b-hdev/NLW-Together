@@ -10,11 +10,11 @@
  NLW/Together, Aqui será postado todos os conteúdo da 6° Edição do NLW!
 
 ## `2º` *|* Programas Usados:
-[Insomnia](https://insomnia.rest/download) para visualização dos metodos criados.
-[Beekeeper Studio](https://www.beekeeperstudio.io/) para gerenciamento do banco de dados.
+- [Insomnia](https://insomnia.rest/download) para visualização dos metodos criados.
+- [Beekeeper Studio](https://www.beekeeperstudio.io/) para gerenciamento do banco de dados.
 
 ## `3º` *|* Infos: 
-Caso você não queira usar o [Yarn](https://yarnpkg.com/), para criação do desafio você precisará usar os seguintes comandos com o [NodeJs](https://nodejs.org/en/).
+- Caso você não queira usar o [Yarn](https://yarnpkg.com/), para criação do desafio você precisará usar os seguintes comandos com o [NodeJs](https://nodejs.org/en/).
 
 - Para criação da pasta `package.json`
 ```bash 
