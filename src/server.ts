@@ -17,13 +17,18 @@ app.get("/test", (request, response) => {
 * Res = Response => Saindo
 */
 
-    return response.send("Hello GET")
+    return response.send("Hello, GET")
 })
 
 app.post("/test-post", (request, response) => {
 
-    return response.send("Hello POST")
+/*
+* Req = Request  => Entrando
+* Res = Response => Saindo
+*/
+
+    return response.send("Hello, POST")
 })
 
-//Iniciando o servidor
+//Aqui onde iniciaremos o webserver! com a porta padrão 3000
 app.listen(3000, () => console.log("Server is running"))
