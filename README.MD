@@ -7,7 +7,7 @@
 </p>
 
 ## `1º` *|* Introdução:
- NLW/Together-NodeJs, Aqui será postado todos os conteúdo da 6° Edição do NLW!
+ NLW/Together-NodeJs, Aqui será postado todos os conteúdo da 6° Edição do NLW! Dia 2
 
 ## `2º` *|* Programas Usados:
 - [Insomnia](https://insomnia.rest/download), para visualização das entradas da api Exemplos: Get, Post, Put, entre outros.
@@ -16,37 +16,14 @@
 ## `3º` *|* Infos: 
 - Caso você não queira usar o [Yarn](https://yarnpkg.com/), para criação da aplicação você precisará usar os seguintes comandos com o [NodeJs V14](https://nodejs.org/en/).
 
-- Para criação do arquivo `package.json` teremos 2 formas de usar o comando,
-```bash 
-npm init
+```bash
+npm run typeorm migration:create -- -n CreateUsers
 ```
-> caso você desejar colocar descrições alterar versão, licença etc..
+> Para criar a primeira migrations usando typeform
 
 ```bash
-npm init -y
+npm run typeorm entity:create -- -n User
 ```
-> para caso queira usar as configurações padrões.
+> Para criar a pasta de entities para listarmos as informações adquiridas!
 
----
-
-- Para instalação das Dependencias e DevDependencias
-```bash
-npm i <nome-da-dependencia>
-```
-> para instalar a dependencia que será usada no projeto.
-
-```bash
-npm i <nome-da-dependencia> -D
-```
-> dessa forma irá instalar a dependencia apenas na opção de desenvolvimento, como estamos utilizando `typescript` não se esqueça de colocar <@types/nome-da-dependencia>!!
-
----
-
-- Para criação do arquivo `tsconfig.json`
-```
-npx tsc --init
-```
-> O arquivo `tsconfig.json` especifica os arquivos raiz e as configurações de compilação necessárias para o projeto.
----
-
-- Password Dia 1 `#together`
+- Password Dia 2 `#unidade`
