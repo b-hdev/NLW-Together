@@ -20,4 +20,4 @@ npm run typeorm migrations:create -- -n CreateTags
 ```
 > Comando usado para criação da tabela de tags
 
-- Password Dia 2 `#unidade`
+- Password Dia 2 `#embuscadeevolução`
