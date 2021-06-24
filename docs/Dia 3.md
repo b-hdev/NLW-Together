@@ -16,8 +16,8 @@
 ## `3º` *|* Infos: 
 - Caso você não queira usar o [Yarn](https://yarnpkg.com/), para criação da aplicação você precisará usar os seguintes comandos com o [NodeJs V14](https://nodejs.org/en/).
 ```bash
-npm run typeorm migrations:create -- -n <nome-do-arquivo>
+npm run typeorm migrations:create -- -n CreateTags
 ```
-> Comando usado para criação das migrations
+> Comando usado para criação da tabela de tags
 
-- Password Dia 4 `#legacy`
+- Password Dia 3 `#embuscadeevolução`
