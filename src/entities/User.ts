@@ -1,3 +1,4 @@
+import { Exclude } from "class-transformer";
 import {
     Entity, PrimaryColumn, Column, CreateDateColumn, UpdateDateColumn,
         } from "typeorm";
@@ -14,6 +15,7 @@ import {
     @Column()
     email: string;
 
+    @Exclude()
     @Column()
     password: string;
   
